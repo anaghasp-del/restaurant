@@ -1,4 +1,4 @@
-
+```css
 /* Body */
 * {
     box-sizing: border-box;
@@ -125,6 +125,7 @@ footer {
     background: #333;
     color: white;
 }
+
 /* Phone */
 @media (max-width: 600px) {
 
@@ -136,16 +137,15 @@ footer {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 10px;
     }
 
     nav a {
-        margin: 0;
+        margin: 5px;
     }
 
     section > div {
         display: block;
-        width: 92%;
+        width: 90%;
         max-width: 320px;
         margin: 15px auto;
     }
@@ -159,3 +159,4 @@ footer {
         font-size: 13px;
     }
 }
+```
