@@ -129,35 +129,41 @@ footer {
 /* Phone */
 @media (max-width: 600px) {
 
-    h1 {
-        font-size: 30px;
-    }
-
-    nav {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
     nav a {
-        margin: 5px;
+        margin: 0 8px;
+    }
+
+    body > p {
+        width: 95%;
+    }
+
+    section {
+        padding: 15px 5px;
     }
 
     section > div {
         display: block;
         width: 90%;
-        max-width: 320px;
+        max-width: 220px;
         margin: 15px auto;
     }
 
-    section > div img {
-        width: 100%;
-        height: 180px;
+    .offer-box {
+        width: 90%;
+        max-width: 400px;
     }
 
-  footer {
-    margin-top: 30px;
-    padding: 15px;
-    background: #333;
-    color: white;
+    form {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .chinese-food {
+        max-width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
 }
+
