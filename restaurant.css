@@ -1,4 +1,4 @@
-```css
+
 /* Body */
 * {
     box-sizing: border-box;
@@ -155,8 +155,9 @@ footer {
         height: 180px;
     }
 
-    footer {
-        font-size: 13px;
-    }
+  footer {
+    margin-top: 30px;
+    padding: 15px;
+    background: #333;
+    color: white;
 }
-```
