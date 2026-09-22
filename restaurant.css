@@ -1,108 +1,103 @@
-
 /* Body */
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #fff8f0;
-    color: #333;
+margin: 0;
+font-family: Arial, sans-serif;
+background: #fff8f0;
+color: #333;
 }
+
 
 
 /* Logo */
 
 body > img {
-    width: 90px;
-    height: 90px;
-    object-fit: cover;
-    border-radius: 50%;
-    display: block;
-    margin: 20px auto 5px;
+width: 90px;
+height: 90px;
+object-fit: cover;
+border-radius: 50%;
+display: block;
+margin: 20px auto 5px;
 }
-
 
 /* Main Heading */
 
 h1 {
-    text-align: center;
-    font-size: 38px;
-    color: #8b0000;
-    margin: 5px 0 20px;
-    letter-spacing: 2px;
+text-align: center;
+font-size: 38px;
+color: #8b0000;
+margin: 5px 0 20px;
+letter-spacing: 2px;
 }
-
 
 /* Navigation */
 
 nav {
-    background: #8b0000;
-    padding: 15px;
-    text-align: center;
+background: #8b0000;
+padding: 15px;
+text-align: center;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 20px;
-    font-weight: bold;
+color: white;
+text-decoration: none;
+margin: 0 20px;
+font-weight: bold;
 }
 
 nav a:hover {
-    color: #ffd700;
+color: #ffd700;
 }
-
 
 /* Welcome */
 
 body > h2 {
-    text-align: center;
-    color: #8b0000;
-    margin-top: 40px;
+text-align: center;
+color: #8b0000;
+margin-top: 40px;
+
 }
 
 body > p {
-    width: 70%;
-    margin: 10px auto;
-    text-align: center;
-    line-height: 1.7;
+width: 70%;
+margin: 10px auto;
+text-align: center;
+line-height: 1.7;
 }
-
 
 /* Buttons */
 
 button {
-    background: #8b0000;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-weight: bold;
+background: #8b0000;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 20px;
+cursor: pointer;
+font-weight: bold;
 }
 
 button:hover {
-    background: #d2691e;
+background: #d2691e;
 }
 
 body > button {
-    display: block;
-    margin: 20px auto 40px;
+display: block;
+margin: 20px auto 40px;
 }
-
 
 /* Food Menu */
 
 section {
-    padding: 30px;
-    text-align: center;
+padding: 30px;
+text-align: center;
 }
 
 section h2 {
-    color: #921414;
-    font-size: 32px;
-    margin-bottom: 30px;
+color: #921414;
+font-size: 32px;
+margin-bottom: 30px;
 }
-
 section > div {
     width: 220px;
     display: inline-block;
@@ -135,18 +130,15 @@ section > div p:nth-of-type(2) {
     font-size: 18px;
     font-weight: bold;
 }
-
-
 /* Chinese Food */
 
 .chinese-food {
-    width: 190px;
-    height: 100px;
+width: 190px;
+height: 100px;
+;
 }
 
-
 /* Special Offer */
-
 .offer {
     text-align: center;
 }
@@ -155,7 +147,7 @@ section > div p:nth-of-type(2) {
     width: 400px;
     margin: auto;
     padding: 20px;
-    background: linear-gradient(rgb(173, 18, 18), rgb(237, 131, 70));
+    background: linear-gradient(rgb(173, 18, 18),rgb(237, 131, 70));
     color: white;
     border-radius: 15px;
 }
@@ -168,7 +160,12 @@ section > div p:nth-of-type(2) {
     background: white;
     color: #8b0000;
 }
-
+button:hover {
+    background: #d2691e;
+}
+button:hover {
+    background: #968e88;
+}
 
 /* Reservation Form */
 
@@ -201,52 +198,10 @@ form button {
     margin: 20px auto 0;
 }
 
-
-/* Footer */
-
 footer {
-    background-color: #8b0000;
+    background-color:#8b0000;
     color: white;
     text-align: center;
     padding: 15px;
     margin-top: 30px;
 }
-
-
-/* Phone */
-
-@media (max-width: 600px) {
-
-    nav a {
-        margin: 0 8px;
-    }
-
-    body > p {
-        width: 95%;
-    }
-
-    section {
-        padding: 20px 5px;
-    }
-
-    section > div {
-        display: block;
-        margin: 15px auto;
-    }
-
-    .offer-box {
-        width: 90%;
-        box-sizing: border-box;
-    }
-
-    form {
-        width: 90%;
-        box-sizing: border-box;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-}
-
-
